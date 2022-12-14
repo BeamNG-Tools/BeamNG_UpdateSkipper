@@ -1,5 +1,5 @@
 ﻿
-namespace BeatSaberNoUpdate {
+namespace BeamNGNoUpdate {
 	partial class Form1 {
 		/// <summary>
 		///  Required designer variable.
@@ -45,7 +45,7 @@ namespace BeatSaberNoUpdate {
 			this.installFolderLabel.Name = "installFolderLabel";
 			this.installFolderLabel.Size = new System.Drawing.Size(124, 13);
 			this.installFolderLabel.TabIndex = 0;
-			this.installFolderLabel.Text = "Beat Saber install Folder:";
+			this.installFolderLabel.Text = "BeamNG install Folder:";
 			// 
 			// browseButton
 			// 
@@ -71,7 +71,7 @@ namespace BeatSaberNoUpdate {
 			this.manifestIdLabel.Name = "manifestIdLabel";
 			this.manifestIdLabel.Size = new System.Drawing.Size(149, 13);
 			this.manifestIdLabel.TabIndex = 5;
-			this.manifestIdLabel.Text = "Latest Beat Saber Manifest ID";
+			this.manifestIdLabel.Text = "Latest BeamNG Manifest ID";
 			// 
 			// textbox_manifest
 			// 
@@ -98,7 +98,7 @@ namespace BeatSaberNoUpdate {
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(272, 13);
 			this.label3.TabIndex = 9;
-			this.label3.Text = "Created by Kinsi. Check out my Mods they\'re kinda nice:";
+			this.label3.Text = "Created by Kinsi. Their original source code:";
 			// 
 			// linkLabel2
 			// 
@@ -163,7 +163,7 @@ namespace BeatSaberNoUpdate {
 			this.MinimizeBox = false;
 			this.Name = "Form1";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Beat Saber Update Skipper (Steam Only)";
+			this.Text = "BeamNG Update Skipper (Steam Only)";
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

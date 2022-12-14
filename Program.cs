@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace BeatSaberNoUpdate {
+namespace BeamNGNoUpdate {
 	static class Program {
 		/// <summary>
 		///  The main entry point for the application.

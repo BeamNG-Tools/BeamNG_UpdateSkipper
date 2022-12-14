@@ -4,11 +4,11 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Linq;
 
-namespace BeatSaberNoUpdate {
+namespace BeamNGNoUpdate {
     class AppInfo {
-        // Beat Saber's app id
-        public const uint APPID = 620980;
-        public const uint DEPOT_ID = 620981;
+        // BeamNG's app id
+        public const uint APPID = 284160;
+        public const uint DEPOT_ID = 284161;
 
         private static SteamClient steamClient;
         private static SteamApps steamApps;

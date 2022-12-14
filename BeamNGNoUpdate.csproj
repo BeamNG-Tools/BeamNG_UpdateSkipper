@@ -4,9 +4,9 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net461</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <ApplicationIcon>bsskip.ico</ApplicationIcon>
-    <Authors>Kinsi55</Authors>
-    <Version>1.1.4</Version>
+    <ApplicationIcon>beamngskip.ico</ApplicationIcon>
+    <Authors>ThaNightHawk (Original source: Kinsi55)</Authors>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

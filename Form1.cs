@@ -12,7 +12,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
-namespace BeatSaberNoUpdate {
+namespace BeamNGNoUpdate {
 	public partial class Form1 : Form {
 		public Form1() {
 			InitializeComponent();
@@ -35,7 +35,7 @@ namespace BeatSaberNoUpdate {
 		}
 
 		private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
-			LaunchUrl("https://kinsi.me/bsmods.html");
+			LaunchUrl("https://github.com/kinsi55/BeatSaber_UpdateSkipper");
 		}
 
 		private void Form1_Load(object sender, EventArgs e) {
@@ -69,7 +69,7 @@ namespace BeatSaberNoUpdate {
 					if(library.Children.FirstOrDefault(x => x.Name == "apps")?.Children.Exists(x => x.Name == tAppId) != true)
 						continue;
 
-					var fullPath = Path.Combine(libPath, "steamapps", "common", "Beat Saber");
+					var fullPath = Path.Combine(libPath, "steamapps", "common", "BeamNG.drive");
 
 					if(CheckFolderPath(fullPath))
 						return fullPath;
@@ -100,7 +100,7 @@ namespace BeatSaberNoUpdate {
 			if(!Directory.Exists(path))
 				return false;
 
-			if(!File.Exists(Path.Combine(path, "..", "..", "appmanifest_620980.acf")))
+			if(!File.Exists(Path.Combine(path, "..", "..", "appmanifest_284160.acf")))
 				return false;
 
 			return true;
@@ -116,7 +116,7 @@ namespace BeatSaberNoUpdate {
 
 		private void applyButton_Click(object sender, EventArgs e) {
 			if(!CheckFolderPath(textbox_path.Text)) {
-				Bad("It seems like the Folder you selected is incorrect. You can go to the properties of Beat Saber in Steam and click on 'Browse Game files' for an easy method to get the correct path");
+				Bad("It seems like the Folder you selected is incorrect. You can go to the properties of BeamNG.drive in Steam and click on 'Browse Game files' for an easy method to get the correct path");
 				return;
 			}
 
@@ -130,7 +130,7 @@ namespace BeatSaberNoUpdate {
 				return;
 			}
 
-			var p = Path.Combine(textbox_path.Text, "..", "..", "appmanifest_620980.acf");
+			var p = Path.Combine(textbox_path.Text, "..", "..", "appmanifest_284160.acf");
 
 			var acf = File.ReadAllText(p);
 
