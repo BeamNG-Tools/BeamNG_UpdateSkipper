@@ -18,4 +18,4 @@ Simple tool to prevent Steam from Updating BeamNG.drive (Windows+Steam) whenever
 Since Steam thinks you are on the latest version, eventho you are not, obviously your files differ from the ones that should exist for this version, so to actually do the update once mods are ready simply to go the properties of BeamNG.Drive in Steam and verify the integrity of the game files.
 
 # Original Source/Repo:
-(Kinsi55's BeatSaber UpdateSkipper)[https://github.com/kinsi55/BeatSaber_UpdateSkipper]
+[Kinsi55's BeatSaber UpdateSkipper](https://github.com/kinsi55/BeatSaber_UpdateSkipper)
