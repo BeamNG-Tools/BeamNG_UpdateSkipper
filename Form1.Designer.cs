@@ -108,7 +108,7 @@ namespace BeamNGNoUpdate {
 			this.linkLabel2.Size = new System.Drawing.Size(29, 13);
 			this.linkLabel2.TabIndex = 10;
 			this.linkLabel2.TabStop = true;
-			this.linkLabel2.Text = "#AD";
+			this.linkLabel2.Text = "Here";
 			this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
 			// 
 			// aboutButton
